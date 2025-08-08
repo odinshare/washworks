@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# production builds
+dist/
+build/
+
+# macOS cruft
+.DS_Store
