@@ -1,0 +1,9 @@
+# Enforce HTTPS and HSTS
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+</IfModule>
+
+# Secure cookie flags
+<IfModule mod_headers.c>
+  Header edit Set-Cookie ^(.*)$ "$1; HttpOnly; Secure; SameSite=Lax"
+</IfModule>

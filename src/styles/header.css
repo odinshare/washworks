@@ -1,0 +1,66 @@
+/* Header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo sizing */
+.header .logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navigation links */
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav a {
+  color: #333333;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+.nav a:hover {
+  color: #007bff;
+}
+
+/* “Get a Free Quote” CTA */
+.cta .btn-quote {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+.cta .btn-quote:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* we'll add a mobile menu toggle next */
+  }
+  .cta .btn-quote {
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+/* Highlight the active nav link */
+.nav .active {
+  color: #0056b3;
+  font-weight: 600;
+}
+
+.site-header {
+  margin-top: 2.5rem; /* adjust to match .geo-header’s height */
+}

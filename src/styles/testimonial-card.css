@@ -1,0 +1,33 @@
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #555;
+  margin: 0;
+}

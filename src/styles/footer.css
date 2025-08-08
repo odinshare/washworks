@@ -1,0 +1,46 @@
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.footer-nav a {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: #007bff;
+}
+
+.footer-contact {
+  text-align: center;
+  padding: 1rem 0;
+}
+.footer-contact p {
+  margin: 0.25rem 0;
+}
+.footer-contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.footer-social a img {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease-in-out;
+}
+.footer-social a img:hover {
+  filter: none;
+}

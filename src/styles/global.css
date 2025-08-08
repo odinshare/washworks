@@ -1,0 +1,23 @@
+/* Import Montserrat so you have a fallback if the <link> fails */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Apply Montserrat site-wide */
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings slightly bolder */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Ensure links use the same typeface */
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
